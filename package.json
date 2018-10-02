@@ -1,0 +1,24 @@
+{
+  "name": "zomdocs",
+  "version": "1.0.0",
+  "description": "Documentation for ZomCss",
+  "main": "index.jss",
+  "scripts": {
+    "test": "build-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shauncallaghan508/zomdocs.git"
+  },
+  "keywords": [
+    "css",
+    "javascript",
+    "scss"
+  ],
+  "author": "Shaun \"Zom\" Callaghan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/shauncallaghan508/zomdocs/issues"
+  },
+  "homepage": "https://github.com/shauncallaghan508/zomdocs#readme"
+}
