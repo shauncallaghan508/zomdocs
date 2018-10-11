@@ -2,9 +2,9 @@
   "name": "zomdocs",
   "version": "1.0.0",
   "description": "Documentation for ZomCss",
-  "main": "index.jss",
+  "main": "index.js",
   "scripts": {
-    "test": "build-css"
+    "build-css": "node-sass --include-path scss zomcss.scss public/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/shauncallaghan508/zomdocs/issues"
   },
-  "homepage": "https://github.com/shauncallaghan508/zomdocs#readme"
+  "homepage": "https://github.com/shauncallaghan508/zomdocs#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
+  }
 }
