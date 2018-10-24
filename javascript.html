@@ -1,0 +1,112 @@
+<html>
+
+<head>
+	<title>ZomCss Documentation</title>
+	<link rel="stylesheet" href="public/css/main.css">
+	<link rel="stylesheet" href="zomdoc.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.2.20171210/classList.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.3/ofi.min.js"></script>
+	<script src="/assets/js/docready.js"></script>
+	<script src="/assets/js/subnav.js"></script>
+	<script src="/assets/js/fader.js"></script>
+	<script src="/assets/js/filter.js"></script>
+	<script src="/assets/js/lightbox.js"></script>
+	<script src="/assets/js/main.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+	 crossorigin="anonymous"></script>
+	<script>
+		FontAwesomeConfig = { searchPseudoElements: true };
+	</script>
+</head>
+
+<body>
+    <div class="row flex-xl-nowrap">
+      <div class="col-12 col-md-3 col-xl-2 sidebar">
+        <nav>
+          <ul class="default">
+            <li>
+              <a href="layout.html">Layout</a>
+            </li>
+            <li>
+              <a href="javascript.html">Javascript</a>
+            </li>
+            <li>
+                <a href="components.html">Components</a>
+                <ul class="default">
+                    <li>
+                        <a href="components.html#filter">Filter</a>
+                    </li>
+                    <li>
+                      <a href="components.html#subnav">Subnav</a>
+                    </li>
+                    <li>
+                      <a href="components.html#lightbox">Lightbox</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+              <a href="grid.html">Grid</a>
+            </li>
+            <li>
+              <a href="buttons.html">Buttons</a>
+            </li>
+            <li>
+              <a href="utilities.html">Utilities</a>
+              <ul class="default">
+                <li>
+                  <a href="utilities.html#borders">Borders</a>
+                </li>
+                <li>
+                  <a href="utilities.html#colors">Colors</a>
+                </li>
+                <li>
+                  <a href="utilities.html#display">Display</a>
+                </li>
+                <li>
+                  <a href="utilities.html#flex">Flex</a>
+                </li>
+                <li>
+                  <a href="utilities.html#float">Float</a>
+                </li>
+                <li>
+                  <a href="utilities.html#sizing">Sizing</a>
+                </li>
+                <li>
+                  <a href="utilities.html#spacing">Spacing</a>
+                </li>
+                <li>
+                  <a href="utilities.html#text">Text</a>
+                </li>
+                <li>
+                  <a href="utilities.html#vertical-align">Vertical Align</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+<main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+    <section name="docready">
+  <h2 class="bd-title" name="docready">docready.js</h2>
+    <p>Replaces jquery's document.ready function.</p>
+    <figure class="zc-highlight"><pre><code class="language-html" data-lang="html">document.ready(function() {
+
+});</code></pre>
+</section>
+<section name="subnav">
+    <h2>subnav.js</h2>
+    <p>Calculates the height of the parent element to a subnav on load and injects the inline style to that subnav element.</p>
+</section>
+<section name="filter">
+    <h2>filter.js</h2>
+    <p>Handles the filter navigation menu</p>
+</section>
+<section name="fader">
+    <h2>fader.js</h2>
+    <p>Handles fading in and out used along with the filter js.</p>
+</section>
+<section name="lightbox">
+    <h2>lightbox.js</h2>
+    <p>Handles gallery lightbox with thumbnails and slide controls.</p>
+</section>
+</main>
